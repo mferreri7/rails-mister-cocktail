@@ -1,0 +1,42 @@
+.details-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-container-form {
+
+  flex: 0 0 auto;
+  width: 60%;
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  form {
+    padding: 16px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    width: 50%;
+    label {
+      color: gray;
+      font-size: 16px;
+      font-weight: lighter;
+    }
+  }
+}
+
+.details-container-list {
+  width: 40%;
+  padding-top: 10px;
+  padding-left: 40px;
+
+  ul {
+    list-style: none;
+    li{
+      color: gray;
+      font-size: 16px;
+      font-weight: lighter;
+    }
+  }
+}

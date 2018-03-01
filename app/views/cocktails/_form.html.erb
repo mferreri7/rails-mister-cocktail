@@ -1,0 +1,6 @@
+<%= simple_form_for(@cocktail) do |f| %>
+  <%= f.input :name %>
+  <%= f.input :image_url, input_html: { value: "https://source.unsplash.com/1600x900/?cocktail" } %>
+  <%= f.submit class: "btn btn-primary" %>
+<% end %>
+
