@@ -8,6 +8,11 @@
   position: relative;
   box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
   border-radius: 2px;
+  transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 .card-user {
   position: absolute;
